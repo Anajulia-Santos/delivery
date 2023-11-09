@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+    font-family: Edu TAS Beginner;
+    
+}
+body{
+    background-color: brown;
+}
+.logo{
+    width: 80px;
+    margin-right: 10px;
+}
+.navbar-brand{
+    font-size: 40px;
+   
+}
+.navbar-collapse{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 25px;
+    margin: auto 20px;
+}
+.nav-item{
+    margin: 10px;
+}
+.navbar{
+    height: 90px;
+    background-color: brown !important;
+}
+
+.navbar a{
+    color: aliceblue;
+}
+.nav-link{
+    color: aliceblue !important;
+}
+.carousel-inner{
+    height: 800px;
+    display: flex;
+    align-items: center;
+}
+#produto{
+    color: aliceblue;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 90px !important;
+}
+.row{
+    margin: 10px auto;
+    width: 1500px;
+}
+
+.card-img-top{
+    height: 380px;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card a{
+    display: flex;
+    justify-content: center;;
+    background-color: brown;
+    border: none;
+    font-size: 30px;
+    width: 50%;
+}
+
+.card-title{
+  font-size: 40px;
+}
+.card-text{
+  font-size: 20px;
+}
